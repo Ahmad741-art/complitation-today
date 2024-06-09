@@ -1,0 +1,29 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.result-container {
+    margin-top: 20px;
+}
+
+.result-item {
+    padding: 100px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.result-item:nth-child(even) {
+    background-color: #efefef;
+}
+
+.result-title {
+    font-weight: bold;
+}
+
+.search-results {
+    margin-top: 20px;
+}
